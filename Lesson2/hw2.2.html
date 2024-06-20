@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: silver;
+            margin: 100px 80px;
+        }
+        .flex{
+            display: flex;
+            height: 200px;
+            justify-content: space-between;
+        }
+        .red-card{
+            color: red;
+        }
+        .card, .red-card{
+            display: flex;
+            width: 140px;
+            height: 150px;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            font-size: 85px;
+        }
+    </style>
+</head>
+<body>
+<h1>Player 1:</h1>
+    <div class="flex">
+        <span class = "card">1&#9827;</span>
+        <span class = "red-card">9&#9829;</span>
+        <span class = "red-card">6&#9829;</span>
+        <span class = "red-card">A&#9830;</span>
+        <span class = "card">Q&#9824;</span>
+        <span class = "card">J&#9827;</span>
+    </div>
+<h1>Player 2:</h1>
+    <div class="flex">
+        <span class = "red-card">3&#9829;</span>
+        <span class = "card">A&#9827;</span>
+        <span class = "card">10&#9827;</span>
+        <span class = "red-card">K&#9830;</span>
+        <span class = "card">8&#9824;</span>
+        <span class = "red-card">3&#9829;</span>
+    </div>
+</body>
+</html>
