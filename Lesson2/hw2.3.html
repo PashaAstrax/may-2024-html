@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: silver;
+        }
+        .title, .bottom{
+            display: flex;
+            justify-content: center;
+            margin: 30px 30px;
+        }
+        .wrap{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 75px;
+        }
+        .box{
+            width: 250px;
+            height: 280px;
+            border: 2px solid grey;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 10%;
+            flex-direction: column-reverse;
+
+        }
+        img{
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="title"><h1>What do I have in my fridge</h1></div>
+
+    <div class="wrap">
+        <div class="box"><b>Peppers</b><img src="https://pngicon.ru/file/uploads/pepper-900x801.png" alt="peppers"></div>
+        <div class="box"><b>Apple</b><img src="https://pngicon.ru/file/uploads/apple.png" alt="apple"></div>
+        <div class="box"><b>Tomato</b><img src="https://pngicon.ru/file/uploads/pomidory-png-900x615.png" alt="tomato"></div>
+        <div class="box"><b>Garlic</b><img src="https://pngicon.ru/file/uploads/chesnok.png" alt="garlic"></div>
+        <div class="box"><b>Eggs</b><img src="https://pngicon.ru/file/uploads/lotok-s-jajcami-900x526.png" alt="eggs"></div>
+        <div class="box"><b>Burger</b><img src="https://pngicon.ru/file/uploads/chizburger-900x713.png" alt="burger"></div>
+        <div class="box"><b>Potato</b><img src="https://pngicon.ru/file/uploads/kartofel-900x800.png" alt="potato"></div>
+        <div class="box"><b>Meat</b><img src="https://pngicon.ru/file/uploads/myaso.png" alt="meat"></div>
+        <div class="box"><b>Fish</b><img src="https://pngicon.ru/file/uploads/losos-myaso-900x900.png" alt="fish"></div>
+        <div class="box"><b>Beer</b><img src="https://pngicon.ru/file/uploads/pivo.png" alt="beer"></div>
+<!--        <div class="box"><b>Olives</b><img src="https://pngicon.ru/file/uploads/olivki-900x675.png" alt="olives"></div>-->
+<!--        <div class="box"><b>Onion</b><img src="https://pngicon.ru/file/uploads/luk-900x836.png" alt="onion"></div>-->
+    </div>
+    <div class="bottom"><h1>... that's all ...</h1></div>
+</body>
+</html>
