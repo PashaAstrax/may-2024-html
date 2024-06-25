@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 20px 0;
+        }
+        body{
+            padding: 0 40px;
+        }
+        .top{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            background-color: #604CC3;
+            font-size: 70px;
+        }
+        .wrap{
+            display: flex;
+            height: 60vh;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: space-between;
+        }
+        .card{
+            display: flex;
+            height: 100%;
+            width: 30%;
+            background-color: #604CC3;
+            font-size: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+        .bottom{
+            display: flex;
+            height: 100vh;
+            background-color: #604CC3;
+            justify-content: center;
+            align-items: center;
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top"><p>Widgets</p></div>
+    <div class="wrap">
+        <div class="card"><p>Big Widgets</p></div>
+        <div class="card"><p>Bigger Widgets</p></div>
+        <div class="card"><p>Huge Widgets</p></div>
+    </div>
+    <div class="bottom"><p>Contact</p></div>
+</body>
+</html>
