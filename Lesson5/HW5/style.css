@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+.active{
+    color: blue;
+}
+/*.........................header.......................*/
+header{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+header nav{
+    width: 60%;
+}
+header nav ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 55px;
+}
+header nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 1s;
+}
+header nav ul a:hover{
+    color: blue;
+    transition: 1s;
+}
+header div{
+    text-align: center;
+}
+/*......................section........................*/
+section{
+    height: 87vh;
+    background-image: url("thumb-1920-1327448.jpeg");
+    background-size: cover;
+}
+/*........................main..........................*/
+main{
+    height: 87vh;
+    background-image: url("thumb-1920-1268533.png");
+    background-size: cover;
+    color: white;
+}
+main div{
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main div h2{
+    margin-top: 30px;
+}
+/*......................address.........................*/
+address{
+    height: 87vh;
+    background-image: url("thumb-1920-1337677.jpeg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+address div{
+    margin: 20px;
+}
+address div p{
+    margin: 8px;
+}
