@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+    height: 100vh;
+}
+header, main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    font-size: 120px;
+    margin-top: 50px;
+    text-shadow: 3px 3px 1px rgba(0,0,0,0.55);
+}
+main{
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 70px;
+}
+main section{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 1px 0 29px 1px rgba(0,0,0,0.59);
+    text-shadow: 3px 3px 1px rgba(0,0,0,0.55);
+}
+section h2{
+    font-size: 60px;
+}
+section p{
+    font-size: 40px;
+    margin-top: 25px;
+}
+.black-text{
+    color: black;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-fuchsia{
+    background-color: fuchsia;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-purple{
+    background-color: purple;
+}
+.bg-maroon{
+    background-color: maroon;
+}
+.bg-olive{
+    background-color: olive;
+}
