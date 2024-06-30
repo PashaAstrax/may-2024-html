@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 20vh;
+            background: #8D8484;
+        }
+        main{
+            height: 60vh;
+            background: #A4A4A4;
+            display: flex;
+        }
+        .left{
+            width: 76vw;
+        }
+        .right{
+            width: 24vw;
+        }
+        .l-top{
+            height: 20vh;
+            background: #776969;
+        }
+        .l-middle{
+            height: 21vh;
+            background: #643030;
+        }
+        .l-bottom{
+            height: 19vh;
+            background: #441818;
+        }
+        .r-top{
+            height: 29vh;
+            background: #937575;
+        }
+        .r-bottom{
+            height: 31vh;
+            background: #644C4C;
+        }
+        footer{
+            height: 20vh;
+            background: #BDBDBD;
+        }
+        header, .l-top, .l-middle, .l-bottom, .r-top, .r-bottom, footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2, p{
+            font-size: 32px;
+        }
+        p{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header><h2>Header</h2></header>
+    <main>
+        <section class="left">
+            <div class="l-top"><p>Content - 1</p></div>
+            <div class="l-middle"><p>Content - 2</p></div>
+            <div class="l-bottom"><p>Content - 3</p></div>
+        </section>
+        <section class="right">
+            <div class="r-top"><p>spam - 1</p></div>
+            <div class="r-bottom"><p>spam - 2</p></div>
+        </section>
+    </main>
+    <footer><h2>Footer</h2></footer>
+</body>
+</html>
