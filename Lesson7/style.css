@@ -46,3 +46,30 @@
     font-size: 1.8rem;
     font-family: "KoHo", sans-serif;
 }
+/********************************************************/
+.middle-section{
+    background-image: url("Rectangle.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.wrap-middle iframe{
+    width: 59rem;
+    height: 33rem;
+}
+.wrap-middle p{
+    width: 59rem;
+    height: 11rem;
+    font-family: "KoHo", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
