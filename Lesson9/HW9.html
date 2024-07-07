@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+        body{
+            background: darkcyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        main{
+            width: 45rem;
+            height: 30rem;
+            background: white;
+            border-radius: 10px;
+        }
+        .top{
+            background: #dde6e6;
+            height: 8rem;
+            border-radius: 10px 10px 0 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+        }
+        label{
+            display: block;
+            margin: 1rem 0 2rem 7.4rem
+        }
+        .checkbox{
+            display: inline-block;
+        }
+        input[type="password"],
+        input[type="text"]{
+            width: 30rem;
+            height: 3rem;
+        }
+        input[type="submit"]{
+            background: #dde6e6;
+            border-radius: 14px;
+            width: 7rem;
+            height: 2.5rem;
+            margin-left: 13rem;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="top">
+            <h1>Вхід в особистий кабінет</h1>
+        </section>
+        <section class="bottom">
+            <form>
+                <label>
+                    <input type="text" name="username" placeholder="Логін або email">
+                </label>
+                <label>
+                    <input type="password" name="password" placeholder="Пароль">
+                </label>
+                <label class="checkbox">
+                    Запам'ятати мене <input type="checkbox" name="remember me">
+                </label>
+                <input type="submit" value="Вхід">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
