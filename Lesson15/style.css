@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 25vh;
+    margin-bottom: 8px;
+}
+.flex{
+    height: 73vh;
+    display: flex;
+}
+main{
+    width: 85vw;
+    margin-right: 8px;
+}
+section{
+    width: 15vw;
+}
+header, main, section{
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 5em;
+    font-weight: bold;
+}
