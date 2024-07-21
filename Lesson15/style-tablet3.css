@@ -1,0 +1,28 @@
+@media screen and (min-width: 480px) and (max-width: 1280px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 18vw;
+    }
+    main{
+        height: 36vh;
+    }
+    .wrap{
+        flex-direction: row;
+    }
+    section{
+        gap: 15px;
+        width: 50%;
+    }
+    div{
+        height: 40vh;
+        width: 23vw;
+        margin-right: 15px;
+    }
+    footer{
+        margin-top: 65px;
+    }
+}
