@@ -17,6 +17,9 @@
         gap: 15px;
         width: 50%;
     }
+    section>div>h2{
+        transform: rotate(270deg);
+    }
     div{
         height: 40vh;
         width: 23vw;
