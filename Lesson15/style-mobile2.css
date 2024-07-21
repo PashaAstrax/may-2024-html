@@ -1,0 +1,26 @@
+@media screen and (max-width: 480px){
+    body{
+        font-size: 8px;
+        margin: 40px;
+    }
+    header, main, .wrap{
+        margin-bottom: 40px;
+    }
+    main, .wrap, aside{
+        width: 100%;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    section{
+        height: 10vh;
+        width: 11vh;
+    }
+    header, aside{
+        height: 18vh;
+    }
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+}

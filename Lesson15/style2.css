@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 15px;
+}
+header, main, section{
+    height: 31.7vh;
+}
+header, main, section, aside{
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+header{
+    margin-bottom: 15px;
+}
+main{
+    margin: 0 15px 15px 0;
+}
+.wrap, main{
+    width: 80vw;
+}
+aside{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    width: 100%;
+}
+.wrap{
+    display: flex;
+    gap: 15px;
+}
+section{
+    width: 33%;
+}
+p{
+    font-size: 5em;
+    font-weight: bold;
+}
