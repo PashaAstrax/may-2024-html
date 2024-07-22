@@ -1,0 +1,43 @@
+@media screen and (max-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .wrap{
+        display: flex;
+        width: 375px;
+        padding: 32px 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    .left{
+        width: 100%;
+        margin-left: 0;
+    }
+    .small{
+        width: 150px;
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    header>a{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 32px;
+        width: 70%;
+    }
+    ul{
+        font-size: 18px;
+    }
+    header, h1, ul{
+        margin-bottom: 16px;
+    }
+    .right, iframe{
+        width: 343px;
+        height: 193px;
+    }
+
+}
