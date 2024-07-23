@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Две колонки равной ширины */
+            grid-template-rows: repeat(3, 1fr); /* Три строки равной высоты */
+            grid-gap: 10px; /* Пространство между ячейками */
+            height: 100vh; /* Высота контейнера */
+        }
+
+        .left-column {
+            grid-column: 1 / 2; /* Занимает первую колонку */
+        }
+
+        .right-column {
+            grid-column: 2 / 3; /* Занимает вторую колонку */
+            grid-row: 1 / 4; /* Занимает все три строки */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .left-content {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        .right-content {
+            background-color: #e0e0e0;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .right-content:last-child {
+            margin-bottom: 0; /* Убрать нижний отступ у последнего элемента */
+        }
+    </style>
+    <title>Grid Layout Example</title>
+</head>
+<body>
+<div class="container">
+    <div class="left-column">
+        <div class="left-content">Первая строка левой колонки</div>
+        <div class="left-content">Вторая строка левой колонки</div>
+        <div class="left-content">Третья строка левой колонки</div>
+    </div>
+    <div class="right-column">
+        <div class="right-content">Первая строка правой колонки</div>
+        <div class="right-content">Вторая строка правой колонки</div>
+    </div>
+</div>
+</body>
+</html>

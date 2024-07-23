@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 2fr  2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+            'header header header'
+            'section main aside'
+            'section address aside'
+            'footer footer footer';
+}
+header{
+    grid-area: header;
+}
+section{
+    grid-area: section;
+}
+main{
+    grid-area: main;
+}
+address{
+    grid-area: address;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+header, footer{
+    background: silver;
+}
+section, aside{
+    background: lightgray;
+}
+main{
+    background: #937575;
+}
+address{
+    background: #c1a7a7;
+}

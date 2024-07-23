@@ -1,0 +1,39 @@
+*{
+    margin:0;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1.5fr;
+    grid-template-areas:
+    'footer footer'
+    'content1 spam1'
+    'content2 spam2'
+    'content3 ?'
+    'footer footer';
+}
+header{
+    grid-area: header;
+}
+.content1{
+    grid-area: content1;
+}
+.content2{
+    grid-area: content2;
+}
+.content3{
+    grid-area: content3;
+}
+.spam1{
+    grid-area: spam1;
+}
+.spam2{
+    grid-area: spam2;
+}
+footer{
+    grid-area: footer;
+}
+header, .content1, .content2, .content3, .spam1, .spam2, footer{
+    background: #937575;
+}
