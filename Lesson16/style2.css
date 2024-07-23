@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    'header header header header'
+    'main main main section'
+    'article aside address section'
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+article{
+    grid-area: article;
+}
+aside{
+    grid-area: aside;
+}
+address{
+    grid-area: address;
+}
+section{
+    grid-area: section;
+}
+header, main, article, aside, address, section{
+    background: silver;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 10px;
+}
